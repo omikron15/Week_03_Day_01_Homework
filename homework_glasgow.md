@@ -27,9 +27,10 @@ SELECT * FROM movies;
 SELECT name FROM people;
 
 3. Oops! Someone at CodeClan spelled Liam's name wrong! Change it to reflect the proper spelling ('Liam Kavenns' should be 'Liam Cavens').
-
+UPDATE people SET name ='Liam Cavens' where id = 3;
 
 4. Return ONLY your name from the 'people' table.
+SELECT name FROM people WHERE name = 'Connor Rose';
 
 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 
