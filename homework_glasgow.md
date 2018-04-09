@@ -33,10 +33,13 @@ UPDATE people SET name ='Liam Cavens' where id = 3;
 SELECT name FROM people WHERE name = 'Connor Rose';
 
 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
+DELETE FROM movies WHERE title = 'Batman Begins';
 
 6. Create a new entry in the 'people' table with the name of one of the instructors.
+INSERT INTO people (name) VALUES ('Upul Dissanayaka');
 
 7. John McCollum has decided to hijack our movie evening, Remove him from the table of people.
+DELETE FROM people where name ='John McCollum';
 
 8. The cinema has just heard that they will be holding an exclusive midnight showing of 'Spider-man: Homecoming'!! Create a new entry in the 'movies' table to reflect this.
 
