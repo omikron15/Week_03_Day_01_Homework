@@ -42,7 +42,7 @@ INSERT INTO people (name) VALUES ('Upul Dissanayaka');
 DELETE FROM people WHERE name ='John McCollum';
 
 8. The cinema has just heard that they will be holding an exclusive midnight showing of 'Spider-man: Homecoming'!! Create a new entry in the 'movies' table to reflect this.
-INSERT INTO movies (title, year, show_time) values ('Spider-man: Homecoming', 2017, '00:00');
+INSERT INTO movies (title, year, show_time) VALUES ('Spider-man: Homecoming', 2017, '00:00');
 
 9. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 15:30 to 21:00, and the 'Guardians of the Galaxy 2' show time from '16:30' to '22:00'.
 UPDATE movies SET show_time = '21:00' WHERE id = 11;
