@@ -39,7 +39,7 @@ DELETE FROM movies WHERE title = 'Batman Begins';
 INSERT INTO people (name) VALUES ('Upul Dissanayaka');
 
 7. John McCollum has decided to hijack our movie evening, Remove him from the table of people.
-DELETE FROM people where name ='John McCollum';
+DELETE FROM people WHERE name ='John McCollum';
 
 8. The cinema has just heard that they will be holding an exclusive midnight showing of 'Spider-man: Homecoming'!! Create a new entry in the 'movies' table to reflect this.
 INSERT INTO movies (title, year, show_time) values ('Spider-man: Homecoming', 2017, '00:00');
